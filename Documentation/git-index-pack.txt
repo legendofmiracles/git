@@ -100,7 +100,7 @@ name of the pack/idx file (see "Notes").
 	This is meant to reduce packing time on multiprocessor
 	machines. The required amount of memory for the delta search
 	window is however multiplied by the number of threads.
-	Specifying 0 will cause Git to auto-detect the number of CPU's
+	Specifying 0 will cause Git to auto-detect the number of CPUs
 	and use maximum 3 threads.
 
 --max-input-size=<size>::
